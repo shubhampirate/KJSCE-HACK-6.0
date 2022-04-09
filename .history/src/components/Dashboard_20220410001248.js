@@ -19,6 +19,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { mainListItems, secondaryListItems } from './listItems';
 import Button from '@mui/icons-material/Button';
+import Donate from './components/Donate'
 
 //import Chart from './Chart';
 import Deposits from './Deposits';
@@ -214,7 +215,7 @@ function DashboardContent() {
           </Grid>
          
           <Grid item xs={2} sm={4} md={4} >
-           <Item onClick={donate}>Donate</Item> 
+           <Item onClick={donate}><Donate/>Donate</Item> 
           </Grid>
          
           <Grid item xs={2} sm={4} md={4} >

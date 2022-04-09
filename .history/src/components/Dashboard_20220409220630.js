@@ -18,7 +18,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { mainListItems, secondaryListItems } from './listItems';
-import Button from '@mui/icons-material/Button';
 
 //import Chart from './Chart';
 import Deposits from './Deposits';
@@ -210,11 +209,11 @@ function DashboardContent() {
           <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }} sx={{padding: 5}}>
           <Grid item xs={2} sm={4} md={4} >
-         <Item>Volunteer</Item>
+          <Link to="/volunteer">  <Item>Volunteer</Item></Link>
           </Grid>
          
           <Grid item xs={2} sm={4} md={4} >
-           <Item onClick={donate}>Donate</Item> 
+          <Link to="/donate"> <Item>Donate</Item> </Link>
           </Grid>
          
           <Grid item xs={2} sm={4} md={4} >

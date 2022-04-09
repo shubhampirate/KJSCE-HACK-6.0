@@ -214,7 +214,7 @@ function DashboardContent() {
           </Grid>
          
           <Grid item xs={2} sm={4} md={4} >
-           <Item onClick={donate}>Donate</Item> 
+           <Item onClick={donate}><Donate/>Donate</Item> 
           </Grid>
          
           <Grid item xs={2} sm={4} md={4} >
