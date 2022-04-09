@@ -98,7 +98,7 @@ function DashboardContent() {
 
   return (
     <ThemeProvider theme={mdTheme}>
-      {/* <Box sx={{ display: 'flex' ,}}>
+      <Box sx={{ display: 'flex' ,}}>
         <CssBaseline />
         <AppBar position="absolute" open={open} sx={{backgroundColor:'black'}}>
           <Toolbar
@@ -167,7 +167,7 @@ function DashboardContent() {
             overflow: 'auto',
           }}
         >
-          <Toolbar /> */}
+          <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
             <Grid container spacing={3}>
               {/* Chart */}
@@ -230,11 +230,11 @@ function DashboardContent() {
       
       </Grid>
     </Box> 
-        {/* </Box> */}
+        </Box>
         
-
+      </Box>
      
-    // </ThemeProvider>
+    </ThemeProvider>
   );
 }
 

@@ -166,8 +166,8 @@ function DashboardContent() {
             height: '100vh',
             overflow: 'auto',
           }}
-        >
-          <Toolbar /> */}
+        > */}
+          <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
             <Grid container spacing={3}>
               {/* Chart */}
@@ -230,11 +230,11 @@ function DashboardContent() {
       
       </Grid>
     </Box> 
-        {/* </Box> */}
+        </Box>
         
-
+      </Box>
      
-    // </ThemeProvider>
+    </ThemeProvider>
   );
 }
 

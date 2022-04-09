@@ -15,16 +15,15 @@ function App() {
   return (
     <div className="App">
      <Router>
-    <Navbar/>
-     
-     <Routes>
+
+     <Navbar/>
      <Route path="/" element={<Page/>}/>
-     <Route path="/dashboard" element={<Dashboard/>}/>
-     <Route path="/volunteer" element={<Volunteer/>}/>
-     <Route path="/donate" element={<Donate/>}/>
-     <Route path="/missing" element={<Missingreport/>}/>
-     <Route path="/faq" element={<Questions/>}/>
-     <Route path="/precaution" element={<Precaution/>}/>
+     <Route path="/" element={<Dashboard/>}/>
+     <Route path="/" element={<Volunteer/>}/>
+     <Route path="/" element={<Donate/>}/>
+     <Route path="/" element={<Missingreport/>}/>
+     <Route path="/" element={<Questions/>}/>
+     <Route path="/" element={<Precaution/>}/>
 
       {/* <Page/> */}
      {/* <Dashboard />  */}
@@ -33,7 +32,6 @@ function App() {
      {/* <Missingreport/> */}
      {/* <Questions/> */}
      {/* <listItems/>  */}
-     </Routes>
      </Router>
     </div>
   );

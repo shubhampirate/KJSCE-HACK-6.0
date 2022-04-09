@@ -98,7 +98,7 @@ function DashboardContent() {
 
   return (
     <ThemeProvider theme={mdTheme}>
-      {/* <Box sx={{ display: 'flex' ,}}>
+      <Box sx={{ display: 'flex' ,}}>
         <CssBaseline />
         <AppBar position="absolute" open={open} sx={{backgroundColor:'black'}}>
           <Toolbar
@@ -167,7 +167,7 @@ function DashboardContent() {
             overflow: 'auto',
           }}
         >
-          <Toolbar /> */}
+          <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
             <Grid container spacing={3}>
               {/* Chart */}
@@ -212,29 +212,29 @@ function DashboardContent() {
           </Grid>
          
           <Grid item xs={2} sm={4} md={4} >
-          <Link to="/donate"> <Item>Donate</Item> </Link>
+          <Link to="/volunteer"> <Item>Donate</Item> </Link>
           </Grid>
          
           <Grid item xs={2} sm={4} md={4} >
-          <Link to="/missing">   <Item>Report Missing</Item></Link>
+          <Link to="/volunteer">   <Item>Report Missing</Item></Link>
           </Grid>
           <Grid item xs={2} sm={4} md={4} >
-          <Link to="/contact"> <Item>Helpline</Item></Link>
+          <Link to="/volunteer"> <Item>Helpline</Item></Link>
           </Grid>
           <Grid item xs={2} sm={4} md={4} >
-          <Link to="/precautions">  <Item>Precautions</Item> </Link>
+          <Link to="/volunteer">  <Item>Precautions</Item> </Link>
           </Grid>
           <Grid item xs={2} sm={4} md={4} >
-          <Link to="/faq">  <Item>Questions</Item> </Link>
+          <Link to="/volunteer">  <Item>Questions</Item> </Link>
           </Grid>
       
       </Grid>
     </Box> 
-        {/* </Box> */}
+        </Box>
         
-
+      </Box>
      
-    // </ThemeProvider>
+    </ThemeProvider>
   );
 }
 
