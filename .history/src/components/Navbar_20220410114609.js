@@ -133,10 +133,7 @@ export default function MiniDrawer() {
             
           </List>
       </Drawer>
-     <br />
-     <br />
-     <br />
-
+     
     </Box>
   );
 }
